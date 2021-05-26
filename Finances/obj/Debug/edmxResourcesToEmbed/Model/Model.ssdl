@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище FinancesModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryName" />
+    </Key>
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="Image" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Costs">
+    <Key>
+      <PropertyRef Name="ID_Cost" />
+    </Key>
+    <Property Name="ID_Cost" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sum" Type="float" Nullable="false" />
+    <Property Name="UserLogin" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="Descrip" Type="nvarchar" MaxLength="64" />
+    <Property Name="date_when" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Income">
+    <Key>
+      <PropertyRef Name="ID_Income" />
+    </Key>
+    <Property Name="ID_Income" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="sum" Type="float" Nullable="false" />
+    <Property Name="UserLogin" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="16" Nullable="false" />
+    <Property Name="Descrip" Type="nvarchar" MaxLength="64" />
+    <Property Name="date_when" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Login" />
+    </Key>
+    <Property Name="Login" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="36" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="36" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="64" Nullable="false" />
+    <Property Name="Image" Type="varbinary(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Costs__CategoryN__286302EC">
+    <End Role="Category" Type="Self.Category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Costs" Type="Self.Costs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryName" />
+      </Principal>
+      <Dependent Role="Costs">
+        <PropertyRef Name="CategoryName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Costs__UserLogin__276EDEB3">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Costs" Type="Self.Costs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Login" />
+      </Principal>
+      <Dependent Role="Costs">
+        <PropertyRef Name="UserLogin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Income__Category__2C3393D0">
+    <End Role="Category" Type="Self.Category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Income" Type="Self.Income" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryName" />
+      </Principal>
+      <Dependent Role="Income">
+        <PropertyRef Name="CategoryName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Income__UserLogi__2B3F6F97">
+    <End Role="Users" Type="Self.Users" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Income" Type="Self.Income" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Login" />
+      </Principal>
+      <Dependent Role="Income">
+        <PropertyRef Name="UserLogin" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище FinancesModelContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Costs" EntityType="Self.Costs" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Income" EntityType="Self.Income" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Costs__CategoryN__286302EC" Association="Self.FK__Costs__CategoryN__286302EC">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Costs" EntitySet="Costs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Costs__UserLogin__276EDEB3" Association="Self.FK__Costs__UserLogin__276EDEB3">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Costs" EntitySet="Costs" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Income__Category__2C3393D0" Association="Self.FK__Income__Category__2C3393D0">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Income" EntitySet="Income" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Income__UserLogi__2B3F6F97" Association="Self.FK__Income__UserLogi__2B3F6F97">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Income" EntitySet="Income" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

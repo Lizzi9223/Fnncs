@@ -1,0 +1,145 @@
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.csprojAssemblyReference.cache
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\MainControl.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\EnterControl.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\MainWindow.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\RegisterControl.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\Start.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\App.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances_Content.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances_MarkupCompile.cache
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances_MarkupCompile.lref
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Dictionaries\EnterDictionary.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\MainControl.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\EnterControl.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\MainWindow.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\RegisterControl.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\Start.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.exe
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.pdb
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\Finances.exe.config
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\Finances.exe
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\Finances.pdb
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\EntityFramework.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\EntityFramework.SqlServer.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\System.Windows.Interactivity.dll
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\EntityFramework.xml
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\EntityFramework.SqlServer.xml
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.pdb
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.xml
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.pdb
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.xml
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\Работа\C#\Fnncs\Finances\Finances\bin\Debug\System.Windows.Interactivity.xml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\App.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.g.resources
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.Properties.Resources.resources
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.GenerateResource.cache
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.CoreCompileInputs.cache
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.CopyComplete
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\IncomeControl.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\IncomeControl.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\CostControl.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\CostControl.baml
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\ProfileWindow.g.cs
+E:\Работа\C#\Fnncs\Finances\Finances\obj\Debug\View\ProfileWindow.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\Finances.exe.config
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\Finances.exe
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\Finances.pdb
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\EntityFramework.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\EntityFramework.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.pdb
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.csprojAssemblyReference.cache
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\CostControl.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\IncomeControl.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\MainControl.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\EnterControl.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\MainWindow.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\ProfileWindow.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\RegisterControl.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\Start.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\App.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances_Content.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances_MarkupCompile.cache
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances_MarkupCompile.lref
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\App.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Dictionaries\EnterDictionary.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\CostControl.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\IncomeControl.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\MainControl.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\EnterControl.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\MainWindow.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\ProfileWindow.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\RegisterControl.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\View\Start.baml
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.g.resources
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.Properties.Resources.resources
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.GenerateResource.cache
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.CoreCompileInputs.cache
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.csproj.CopyComplete
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.exe
+C:\Users\Джек\Desktop\Fnncs\Finances\Finances\obj\Debug\Finances.pdb
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\Finances.exe.config
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\Finances.exe
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\Finances.pdb
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\EntityFramework.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\EntityFramework.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.pdb
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.csprojAssemblyReference.cache
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\CostControl.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\IncomeControl.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\MainControl.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\EnterControl.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\MainWindow.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\ProfileWindow.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\RegisterControl.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\Start.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\App.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances_Content.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances_MarkupCompile.cache
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances_MarkupCompile.lref
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\App.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Dictionaries\EnterDictionary.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\CostControl.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\IncomeControl.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\MainControl.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\EnterControl.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\MainWindow.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\ProfileWindow.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\RegisterControl.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\View\Start.baml
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.g.resources
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.Properties.Resources.resources
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.csproj.GenerateResource.cache
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.csproj.CoreCompileInputs.cache
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.csproj.CopyComplete
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.exe
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.pdb
+C:\Users\Джек\Desktop\Fnncs — копия\Finances\Finances\obj\Debug\Finances.Properties.Languages.Language.resources

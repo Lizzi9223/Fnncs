@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="Finances.View.RegisterControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:ie="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Finances.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="400" FontFamily="Kornilow">
+    <Grid Background="#f3e5f5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Border Width="160" Height="160" Cursor="Hand" BorderThickness="0" Grid.Row="0" CornerRadius="70" Margin="35,20,20,20" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Ellipse>
+                <Ellipse.Fill>
+                    <ImageBrush Stretch="UniformToFill"  ImageSource="{Binding Path=User.Image, NotifyOnValidationError=True,ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged}"></ImageBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <Border.InputBindings>
+                <MouseBinding MouseAction="LeftClick" Command="{Binding ImageCommand}"/>
+            </Border.InputBindings>
+        </Border>
+        <StackPanel  Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Имя" FontSize="16" VerticalAlignment="Center" Margin="5,0,0,0"/>
+                <TextBox Style="{StaticResource RegTextBox}" Text="{Binding Path=User.Name, NotifyOnValidationError=True,ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                    <Validation.ErrorTemplate>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <AdornedElementPlaceholder x:Name="textBox" />
+                                <ItemsControl ItemsSource="{Binding}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding ErrorContent}" Foreground="#b71c1c" FontSize="12" FontWeight="SemiBold" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Validation.ErrorTemplate>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock Text="Фамилия" FontSize="16" VerticalAlignment="Center" Margin="40,0,0,0"/>
+                <TextBox Style="{StaticResource RegTextBox}" Text="{Binding Path=User.LastName, NotifyOnValidationError=True,ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                    <Validation.ErrorTemplate>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <AdornedElementPlaceholder x:Name="textBox" />
+                                <ItemsControl ItemsSource="{Binding}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding ErrorContent}" Foreground="#b71c1c" FontSize="12" FontWeight="SemiBold" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Validation.ErrorTemplate>
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock Text="Логин" FontSize="16" VerticalAlignment="Center" Margin="62,0,0,0"/>
+                <TextBox Style="{StaticResource RegTextBox}" Text="{Binding Path=User.Login, NotifyOnValidationError=True,ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}">
+                    <Validation.ErrorTemplate>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <AdornedElementPlaceholder x:Name="textBox" />
+                                <ItemsControl ItemsSource="{Binding}">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding ErrorContent}" Foreground="#b71c1c" FontSize="12" FontWeight="SemiBold" />
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Validation.ErrorTemplate>
+                </TextBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <TextBlock Text="Пароль" FontSize="16" VerticalAlignment="Center" Margin="55,0,0,0"/>
+                <PasswordBox Style="{StaticResource EnterPassword}">
+                    <ie:Interaction.Behaviors>
+                        <local:PasswordBehavior Password="{Binding Path=User.Password, NotifyOnValidationError=True,ValidatesOnNotifyDataErrors=True, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"/>
+                    </ie:Interaction.Behaviors>
+                </PasswordBox>
+            </StackPanel>
+            <Button Height="30" Style="{StaticResource Buttons}" Width="180" Command="{Binding RegCommand}" VerticalAlignment="Center" FontSize="14" HorizontalAlignment="Center" Margin="35,20,10,10" Background="#78909c" BorderBrush="{x:Null}" Content="Зарегистрироваться"></Button>
+
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>
